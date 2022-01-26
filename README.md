@@ -33,3 +33,6 @@ This project will be much more front-end heavy because the back-end is just resp
 
 ## API
 - [Jikan API](https://jikan.moe/)
+
+## Inspired By
+[Anilist](https://anilist.co/)
