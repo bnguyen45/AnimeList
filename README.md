@@ -35,4 +35,4 @@ This project will be much more front-end heavy because the back-end is just resp
 - [Jikan API](https://jikan.moe/)
 
 ## Inspired By
-[Anilist](https://anilist.co/)
+- [Anilist](https://anilist.co/)
