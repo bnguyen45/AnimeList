@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AnimeComponent } from './anime/anime.component';
 import { MangaComponent } from './manga/manga.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     AnimeComponent,
-    MangaComponent
+    MangaComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule
