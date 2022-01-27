@@ -1,1 +1,18 @@
-<p>anime works!</p>
+<section >
+    <h2>ANIME</h2>
+    <input (click)="getTopAnime(anime)" type="submit" value="Search"/>
+
+    <div *ngIf="animeList">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" img src="{{animeList.images[0]}}"
+    
+             alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">{{animeList.name}}</h4>
+              <p class="card-text">Synopsis text.</p>
+            </div>
+          </div>
+ </div>
+
+</section>
+

@@ -6,7 +6,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AnimeComponent } from './anime/anime.component';
 import { MangaComponent } from './manga/manga.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
-import { AppRoutingModule } from './app-routing.module'; 
+import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,15 @@ import { AppRoutingModule } from './app-routing.module';
     NavBarComponent,
     AnimeComponent,
     MangaComponent,
-    SearchbarComponent
+    SearchbarComponent,
+
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
    
   ],
   providers: [],
